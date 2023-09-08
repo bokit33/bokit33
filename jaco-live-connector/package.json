@@ -1,0 +1,64 @@
+{
+  "name": "jaco-live",
+  "version": "1.0.0",
+  "description": "Node.js module to receive live stream chat events like comments and gifts from Jaco LIVE",
+  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write src/**/*.js",
+    "build": "babel src -d dist --copy-files && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/jaco-live.git"
+  },
+  "funding": [
+    {
+      "type": "Ko-fi",
+      "url": "https://ko-fi.com/your-kofi-url"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://www.patreon.com/your-patreon-url"
+    }
+  ],
+  "keywords": [
+    "jaco",
+    "jaco live",
+    "live",
+    "stream",
+    "livestream",
+    "chat",
+    "connector",
+    "api",
+    "webcast",
+    "tracker",
+    "scraper",
+    "websocket",
+    "bot",
+    "broadcast",
+    "reader"
+  ],
+  "author": "your-username",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/jaco-live/issues"
+  },
+  "homepage": "https://github.com/your-username/jaco-live#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "protobufjs": "^6.11.2",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "prettier": "2.5.1",
+    "typescript": "^4.8.2"
+  }
+}
